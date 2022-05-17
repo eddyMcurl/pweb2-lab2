@@ -6,7 +6,5 @@ function codigoLink(){
     let posSlash= url.lastIndexOf("/");
     let cadenaCguion= url.slice(posSlash+1, longitud);
     let cadenaSguion=cadenaCguion.replace("-","");
-    
-    
     console.log(cadenaSguion);
 }
